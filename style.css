@@ -1,0 +1,124 @@
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    background: #0F171E;
+}
+
+/* Navigation Bar START */
+.banner {
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+
+.nav-bar {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    position: relative;
+    background: #1A242E;
+    padding: 0.5%;
+}
+
+.banner_button  {
+    float: left;
+    margin-top: 1%;
+}
+
+.banner_button > button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+}
+
+.nav-bar > img {
+    height: 100%;
+}
+
+.banner_button > button:focus {
+    border-bottom: solid white 2px;
+}
+
+.banner_text {
+    display: block;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.banner_text-left {
+    text-align: left;
+    float: left;
+    max-width: 480px;;
+    padding-left: 100px;
+}
+
+.banner_text-left > h1 {
+    display: inline-block;
+    font-size: 5rem;
+    color: white;
+    margin-block-end: 0;
+}
+
+.banner_text_second {
+    color: #EF4647;
+    font-size: 2rem;
+    max-width: 146px;
+}
+
+.banner_text-right {
+    float: right;
+}
+
+.search_button {
+    float: right;
+}
+
+.user_profile > button {
+    float: right;
+}
+
+.search_button {
+    height: 100%;
+}
+
+.search_button > input {
+    background: transparent;
+    border: solid white 1px;
+    border-radius: 5px;
+    height: 60%;
+    width: 100%;
+}
+
+.login_signup {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: medium;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.right {
+    height: 100%;
+    margin-top: 0.7%;
+
+}
+/* Navigation Bar END */
+
+/* Owl Carousel START */
+.owl-stage-outer {
+    color: white;
+}
+
+.owl-carousel.owl-loaded {
+    display: inline-block !important;
+}
+
+/* Owl Carouse END */

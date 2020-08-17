@@ -5,19 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PrimeVideo</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owlcarousel/dist/assets/owl.carousel.css">
 </head>
 <body>
     <!-- Navigation Bar START -->
-    <header>
-        <div class="nav_bar">
-            <ul>
-                <li>Home</li>
-                <li>TV Shows</li>
-                <li>Movies</li>
-                <li>Kids</li>
-            </ul>
+    <div class="banner">
+        <header class="nav-bar">
+            <img src="prime-video-logo.jpg" alt="" style="background: #1A242E; float: left;">
+
+            <div class="banner_button">
+                <button class="register_button">Home</button>
+                <button class="login_button">TV Shows</button>
+                <button class="login_button">Movies</button>
+                <button class="login_button">Kids</button>
+            </div>
+
+            <div class="right">
+                <div class="user_profile">
+                    <button class="login_signup">Login/Signup</button>
+                </div>
+    
+                <div class="search_button">
+                    <input type="text">
+                </div>
+            </div>
+        </header>
+
+        <!-- Owl Carousel START -->
+        <div class="owl-carousel owl-theme">
+            <div class="item"> <a href="#"><img src="bandish-bandits.png" alt=""></a> </div>
+            <div class="item"> <a href="#"><img src="bandish-bandits.png" alt=""></a> </div>
+            <div class="item"> <a href="#"><img src="bandish-bandits.png" alt=""></a> </div>
+            <div class="item"> <a href="#"><img src="bandish-bandits.png" alt=""></a> </div>
+            <div class="item"> <a href="#"><img src="bandish-bandits.png" alt=""></a> </div>
+            <div class="item"> <a href="#"><img src="bandish-bandits.png" alt=""></a> </div>
+            <div class="item"> <a href="#"><img src="bandish-bandits.png" alt=""></a> </div>
+            <div class="item"> <a href="#"><img src="bandish-bandits.png" alt=""></a> </div>
+            <div class="item"> <a href="#"><img src="bandish-bandits.png" alt=""></a> </div>
+            <div class="item"> <a href="#"><img src="bandish-bandits.png" alt=""></a> </div>
         </div>
-    </header>
+        <!-- Owl Carousel END -->
+    </div>
     <!-- Navigation Bar END -->
 </body>
 </html>
+
+<script src="./jquery.min.js"></script>
+<script src="./owlcarousel/dist/owl.carousel.min.js"></script>
+
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    items: 1,
+})
+</script>
