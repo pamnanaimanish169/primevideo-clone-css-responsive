@@ -126,6 +126,11 @@ body {
 /* Watch Next Carousel START */
 .owl-carousel-2.owl-carousel.owl-theme {
     border: solid blue 4px;
-    width: 15%;
+    /* width: 15%; */
+}
+
+.item-2 {
+    /* width: 15%;
+    border: solid black 4px; */
 }
 /* Watch Next Carousel END */
