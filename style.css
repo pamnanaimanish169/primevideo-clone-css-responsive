@@ -112,7 +112,7 @@ body {
 }
 /* Navigation Bar END */
 
-/* Owl Carousel START */
+/* Main Owl Carousel START */
 .owl-stage-outer {
     color: white;
 }
@@ -121,4 +121,11 @@ body {
     display: inline-block !important;
 }
 
-/* Owl Carouse END */
+/* Main Owl Carouse END */
+
+/* Watch Next Carousel START */
+.owl-carousel-2.owl-carousel.owl-theme {
+    border: solid blue 4px;
+    width: 15%;
+}
+/* Watch Next Carousel END */
