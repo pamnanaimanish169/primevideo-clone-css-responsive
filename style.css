@@ -7,6 +7,11 @@ body {
     background: #0F171E;
 }
 
+.heading {
+    color: white;
+    font-weight: 800;
+}
+
 /* Navigation Bar START */
 .banner {
     background-size: cover;
@@ -129,8 +134,15 @@ body {
     /* width: 15%; */
 }
 
-.item-2 {
+.item-3 {
     /* width: 15%;
     border: solid black 4px; */
 }
 /* Watch Next Carousel END */
+
+/* Movies in your language START */
+.owl-carousel-3.owl-carousel.owl-theme {
+    border: solid black 4px;
+}
+
+/* Movies in your language END */
