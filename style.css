@@ -152,21 +152,20 @@ body {
 }
 
 .owl-nav > .owl-prev {
-    border: solid blueviolet 4px;
+    border: none;
     padding-right: 10px;
     margin-right: 80rem;
     font-size: 5rem !important;
     background: black !important;
     opacity: 0.3;
     color: white !important;
-    height: 9rem;
     position: absolute;
     top: 0%;
     height: 100%;
 }
 
 .owl-nav > .owl-next {
-    border: solid blueviolet 4px;
+    border: none;
     padding-right: 10px;
     margin-right: 80rem;
     font-size: 5rem !important;
@@ -177,5 +176,9 @@ body {
     top: 0%;
     left: 98%;
     height: 100%;
+}
+
+.owl-dots {
+    display: none;
 }
 /* Owl Button END */
