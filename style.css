@@ -130,7 +130,6 @@ body {
 
 /* Watch Next Carousel START */
 .owl-carousel-2.owl-carousel.owl-theme {
-    border: solid blue 4px;
     /* width: 15%; */
 }
 
@@ -146,3 +145,37 @@ body {
 }
 
 /* Movies in your language END */
+
+/* Owl Button START */
+.owl-nav {
+    display: inline-block;
+}
+
+.owl-nav > .owl-prev {
+    border: solid blueviolet 4px;
+    padding-right: 10px;
+    margin-right: 80rem;
+    font-size: 5rem !important;
+    background: black !important;
+    opacity: 0.3;
+    color: white !important;
+    height: 9rem;
+    position: absolute;
+    top: 0%;
+    height: 100%;
+}
+
+.owl-nav > .owl-next {
+    border: solid blueviolet 4px;
+    padding-right: 10px;
+    margin-right: 80rem;
+    font-size: 5rem !important;
+    background: black !important;
+    opacity: 0.3;
+    color: white !important;
+    position: absolute;
+    top: 0%;
+    left: 98%;
+    height: 100%;
+}
+/* Owl Button END */
