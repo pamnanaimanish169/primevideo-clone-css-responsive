@@ -54,18 +54,17 @@ body {
 }
 
 .tv_shows {
-    color: white
+    color: white;
+    text-decoration: none;
 }
-
-.tv_shows:visited {
-    text-decoration: underline !important;
-}
-
 .movies {
     color: white
 }
 .kids {
     color: white
+}
+.kids:visited {
+    text-decoration: underline !important;
 }
 
 .banner_text {
