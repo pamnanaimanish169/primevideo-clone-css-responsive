@@ -1,3 +1,7 @@
+a:active {
+    text-decoration: underline;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     width: 100%;
@@ -31,6 +35,24 @@ body {
 .banner_button  {
     float: left;
     margin-top: 1%;
+}
+
+.home {
+    color: white;
+}
+.home:visited {
+    text-decoration: underline !important;
+}
+
+.tv_shows {
+    color: white;
+    text-decoration: none;
+}
+.movies {
+    color: white
+}
+.kids {
+    color: white
 }
 
 .banner_button > button {
